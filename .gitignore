@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+build/
+*.spec.bak
+
+# --- PyInstaller output ---
+dist/
+*.manifest
+
+# --- OS / editor noise ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+.idea/
+.vscode/
+*.log
+*.tmp
+
+# --- Never commit these ---
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+credentials.json
