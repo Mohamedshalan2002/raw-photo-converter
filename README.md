@@ -46,10 +46,10 @@ The same executable doubles as a batch converter:
 
 ```bash
 # whole folder to HEIC, balanced quality
-raw-converter "D:\Photos" -o "D:\Photos\Converted" -f heic -q balanced
+raw-photo-converter.exe "D:\Photos" -o "D:\Photos\Converted" -f heic -q balanced
 
 # specific files to JPG
-raw-converter "D:\a.NEF" "D:\b.CR2" -f jpg -q small
+raw-photo-converter.exe "D:\a.NEF" "D:\b.CR2" -f jpg -q small
 ```
 
 | Flag | Values | Meaning |
